@@ -1,0 +1,28 @@
+.nav-item a:hover{
+    background: #ddd;
+    color: black;
+}
+.nav-item a
+{
+    color:white;
+}
+.fixed{
+    position:fixed;
+    overflow: hidden;
+    width: 100%;
+    top:0;
+}
+.footer{
+    width: 100%;
+    bottom:0%;
+    position: fixed;
+    color:white;
+    height:8%;
+}
+.data
+{
+    font-size: 70px;
+    text-align: center;
+    color:darkslategrey;
+    height: 100%;
+}

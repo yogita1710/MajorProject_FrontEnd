@@ -1,0 +1,14 @@
+.first{
+    color:crimson;
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+}
+.table{
+    text-align: center;
+    margin-bottom: 5%;
+    border: 2px solid black;
+}
+body{
+    background-color:antiquewhite;
+}

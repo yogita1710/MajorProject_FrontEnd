@@ -1,0 +1,12 @@
+body{
+    background-image: url('https://www.lingholic.com/wp-content/uploads/2013/01/study.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.btn:hover
+{
+ background-color: white;
+ color: black;
+}

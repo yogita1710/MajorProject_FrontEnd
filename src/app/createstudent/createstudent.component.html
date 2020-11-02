@@ -1,0 +1,19 @@
+<div><br>
+  <button class="btn btn-outline-secondary" routerLink="" style="margin-left: 40px;">Back</button>
+<h2 class="first">FILL THE CREDENTIALS</h2>
+<div class="container">
+    <label for="name">NAME : </label>
+    <input type="text" id="name" [(ngModel)]="student.name" class="form-control" placeholder="ENTER YOUR NAME" required/> 
+    <br/>
+    <label for="course">COURSE: </label>
+    <input type="text" id="course" [(ngModel)]="student.course" class="form-control" placeholder="ENTER YOUR COURSE" required/> 
+    <br/>
+    <label for="fee">FEE : </label>
+    <input type="number" id="fee"  [(ngModel)]="student.fee" class="form-control" placeholder="ENTER YOUR FEES" required/>   
+      <br/>
+    <label for="marks">MARKS : </label>
+    <input type="number" id="marks"  [(ngModel)]="student.marks" class="form-control" placeholder="ENTER YOUR MARKS" required/> 
+    <br/>
+    <button class="btn btn-success second" (click)="saveStudent()">SAVE</button>
+</div>
+</div>
